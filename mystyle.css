@@ -1,0 +1,34 @@
+a:hover {color:#FF0000;}   /* mouse over link */
+#title{
+	margin-left:auto;
+	margin-right:auto;
+	width: 28%;
+	border: 4px solid black;
+}
+#subtitle{
+	margin-left:auto;
+	margin-right:auto;
+	width: 25%;
+}
+#Spotify{
+	float:right;
+	width:300px;
+}
+#Price1{
+	position:absolute;
+	left: 700px;
+	top: 600px;
+}
+#Price2{
+	position:absolute;
+	left: 700px;
+	top: 1100px;
+}
+#Description{
+	width: 40%;
+}
+#maillist{
+	position: absolute;
+	left: 700px;
+	top: 1400px;
+}
