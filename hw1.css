@@ -10,7 +10,7 @@ body {
 	background: #fff url(blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding-left:75px;
-	padding-bottom: 20px;
+	padding-bottom: -200px;
 	padding-top: 30px;
 	}
 p { 
@@ -50,10 +50,9 @@ abbr {
 	float: right;
 }
 .price{
-
-	position:relative;
-	left: 650px;
-	top: -300px;
+	position: relative;
+	left:640px;
+	top: -200px;
 }
 #introduction{
 	width: 400px;
@@ -61,9 +60,25 @@ abbr {
 .month_release{
 	width: 640px;
 }
-#maillist{
+#abtme{
 	position: relative;
-	left: 700px;
+	right: 23px;
+	float: right;
+}
+#maillist{
+	clear:both;
+	float: right;
+	position: relative;
+	top: -100px;
+	right: 39px;
 }
 #detail_tag{
+	width: 500px;
 }
+img {
+	float: left;
+}
+label {
+    display: inline-block;
+    width: 5em;
+  }
