@@ -123,21 +123,26 @@
 
 	<div id="maillist">
 		<p><a id="sign_up" title="We won't release your information to third parties">Sign up for our mail list here:</a></p>
-		<form action="demo_form.asp" autocomplete="on">
+		<form action="hw2.php" method="post" autocomplete="on">
   			<fieldset>
 	    		<div>
 	      			<label for="firstname">Firstname:</label>
-	      			<input id="firstname" name="firstname" title="Please provide your firstname.">
+	      			<input id="firstname" type="text" name="firstname" title="Please provide your firstname.">
 	    		</div>
 	    		<div>
 		      		<label for="lastname">Lastname:</label>
-		      		<input id="lastname" name="lastname" title="Please provide also your lastname.">
+		      		<input id="lastname" type="text" name="lastname" title="Please provide also your lastname.">
 	    		</div>
 	    		<div>
 			    	<label for="address">Email:</label>
-			    	<input id="address" name="address" title="Your Email Address.">
+			    	<input id="address" type="email" name="email" title="Your Email Address.">
+	    		</div>
+	    		<div>
+	    			<label for="start_date">Get your first pair of sneaker on:</label>
+	    			<input id="start_date" type="date" name="start_date" title="Approximate date is fine in mm/dd/yyyy">
 	    		</div>
   			</fieldset>
+  			<input type="submit">
 		</form>
 	</div>
   	<div id="detail_tag">
