@@ -1,6 +1,7 @@
 html {
 	margin: 0;
 	padding: 0;
+	width: 1200px;
 	}
 body { 
 	font: 75% georgia, sans-serif;
@@ -9,8 +10,7 @@ body {
 	background: #fff url(blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding-left:75px;
-	padding-right:75px;
-	padding-bottom: 75px;
+	padding-bottom: 20px;
 	padding-top: 30px;
 	}
 p { 
@@ -47,19 +47,19 @@ abbr {
 	width: 28%;
 }
 #Spotify{
-	float:right;
+	float: right;
 }
 .price{
+
 	position:relative;
 	left: 650px;
 	top: -300px;
-
 }
 #introduction{
-	width: 50%;
+	width: 400px;
 }
 .month_release{
-	width: 50%;
+	width: 640px;
 }
 #maillist{
 	position: relative;
