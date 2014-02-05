@@ -7,13 +7,14 @@
 	</script>
 	<script>
 		$(document).ready(function(){
-  			$("h2.toggler").click(function(){
+  			$("h2#dec_2013_toggler").click(function(){
     			$("#dec_2013_content").toggle(100);
  		 	});
-		});
-		$(document).ready(function(){
-  			$("h4.youtube_toggler").click(function(){
-    			$("#youtube").toggle(100);
+ 		 	$("h2#jan_2014_toggler").click(function(){
+    			$("#jan_2014_content").toggle(100);
+ 		 	});
+ 		 	$("h4.youtube_toggler").click(function(){
+    			$("#Youtube").toggle(100);
  		 	});
 		});
 	</script>
@@ -35,9 +36,9 @@
 			<a href="http://insider.nike.com/us/">nike insider</a>. 
 		</p>
 	</div>
+
 	<div id="dec2013" class="month_release">
-		<button>Toggle</button>
-		<h2 class="toggler">December 2013 Release: </h2>
+		<h2 id="dec_2013_toggler">December 2013 Release: </h2>
 		<div id="dec_2013_content">
 			<h3>AIR JORDAN 1 RETRO ‘BLACK/RED’</h3>
 			<p>
@@ -58,12 +59,42 @@
 					<br>Price: $185
 				</p>
 			</div>
-			<h4 class="youtube_toggler">Air Jordan 11 Retro "Gamma" Review</h3>
-			<div id="Youtube">
+			<h4 class="youtube_toggler">Click to see Air Jordan 11 Retro "Gamma" Review</h3>
+			<div id="Youtube"  style="display:none">
 				<embed width="560" height="315" src="//www.youtube.com/embed/lJAo131xJNA" frameborder="1" allowfullscreen>
 			</div>
 		</div>
 	</div>
+
+	<div id="jan2014" class="month_release">
+		<h2 id="jan_2014_toggler">January 2014 Release: </h2>
+		<div id="jan_2014_content">
+			<h3>KOBE 8 ‘YEAR OF THE HORSE’</h3>
+			<p>
+				Celebrating the arrival of 2014 and the Year of the Horse, the Kobe 8 features a unique graphic pattern on the upper with citron and blue highlights.
+				<img src="http://insider.nike.com/us/wp-content/uploads/2013/12/Kobe8_System_YOTH_674_3qtr_13907.png" alt="kobe yoh">
+			</p>
+			<div class="price">
+				<p>Release Date: Jan 1, 2014 <br>Price: $160
+				</p>
+			</div>
+			<h3>AIR MAX LUNAR90</h3>
+			<p>
+				At Nike the question “how do we make it better?” drives innovation and leads to new ideas. In Spring 2014, the Air Max 90 becomes the target of that design ethos. The classic Air Max 90 is updated with unprecedented sole and upper enhancements making the shoe more breathable, comfortable, and lightweight–enhancing movement without sacrifice to the original, time-tested, aesthetics.
+				<br><img src="http://insider.nike.com/us/wp-content/uploads/2013/12/Sp14_NSW_AM90_LNR_M_GyVt_SU_V1_FB.jpg" alt="Air Max Lunar">
+			</p>
+			<div class="price">
+				<p>Release Date: Jan 3, 2014
+					<br>Price: $130
+				</p>
+			</div>
+			<h4 class="youtube_toggler">Click to see AIR MAX LUNAR90 Review</h3>
+			<div id="Youtube"  style="display:none">
+				<embed width="560" height="315" src="http://www.youtube.com/watch?v=dFzW3DBvxI4" frameborder="1" allowfullscreen>
+			</div>
+		</div>
+	</div>
+
 	<div id="maillist">
 		<p>Sign out for our mail list here:</p>
 		<form action="demo_form.asp" autocomplete="on">
