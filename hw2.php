@@ -124,7 +124,14 @@
 	<div id="maillist">
 		Welcome <?php echo $_GET["firstname"]; ?><br>
 		Your registered address is: <?php echo $_GET["email"]; ?><br>
-
+		<?php 
+			$start_date = $_GET["start_date"];
+			$start_date = explode("/", $start_date);
+			$age = (date("md", date("U", mktime(0, 0, 0, $start_date[0], $start_date[1], $start_date[2]))) > date("md")
+    			? ((date("Y") - $start_date[2]) - 1)
+    			: (date("Y") - $start_date[2]));
+			echo $age . "old sneaker fan";
+		?>
 
 	</div>
   	<div id="detail_tag">
