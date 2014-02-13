@@ -1,0 +1,80 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding-left:75px;
+	padding-bottom: -200px;
+	padding-top: 30px;
+	}
+p { 
+	margin-top: 0; 
+	/*text-align: justify;*/
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+.header{
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+}
+#Spotify{
+	float: right;
+}
+.price{
+	position: relative;
+	left:640px;
+	top: -200px;
+}
+#introduction{
+	width: 400px;
+}
+.month_release{
+	width: 640px;
+}
+#abtme{
+	position: relative;
+	right: 23px;
+	float: right;
+}
+#maillist{
+	clear:both;
+	float: right;
+	position: relative;
+	top: -100px;
+	right: 10px;
+}
+#detail_tag{
+	width: 500px;
+}
+img {
+	float: left;
+}
